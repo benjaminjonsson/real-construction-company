@@ -1,17 +1,5 @@
-.logo-image {
-    width: 150px;
-    margin-left: 20px;
-}
 ul {
     list-style-type: none;
     display: flex;
-    max-width: 800px;
-    justify-content: flex-end;
-    position: relative; left: 200px; bottom: 110px;
-}
-ul > li {
-    margin: 20px;
-}
-a  {
-    text-decoration: none;
+    justify
 }
