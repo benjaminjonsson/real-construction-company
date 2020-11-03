@@ -14,8 +14,15 @@ ul > li {
     position: relative; left: -20px; top: -50px;
     font-family: 'Anton', sans-serif;
 }
-
-li > a {
+a {
     text-decoration: none;
-    color: #5875b2; 
+    color: black;
+    transition: 0.2s;
+}
+a:hover {
+    transition: 0.2s;
+    color: #5875b2;
+}
+body {
+    background-image: url(../images/blurry_construction.jpg);
 }
