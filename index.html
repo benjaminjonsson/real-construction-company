@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Helsingbuild AB</title>
     <link rel="stylesheet" href="styles/styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Merriweather&display=swap" rel="stylesheet">
+
 
 </head>
 <body> 
@@ -20,8 +21,25 @@
         </ul>
     </nav>
     <main>
-        <div>
-            
+        <section>
+            <h1>We know what to do.</h1>
+                <h3>Tell us what you want.</h3>
+        </section>
+        <div class="contact-form">
+            <div><h2>Contracting Us</h2></div>
+            <label for="email">Email</label>
+                <input type="email" placeholder="Enter your email here" id="email"> 
+            <label for="phone">Phone number</label>
+                <input type="tel" id="phone" placeholder="Enter your phone number here" pattern="[0-9]">
+            <label for="client-type">Who are you?</label>
+                <select name="client-type" id="client-type">
+                    <option value="corporation">Corporation</option>
+                    <option value="organization">Organization</option>
+                    <option value="private">Private Person</option>
+                </select>
+            <label for="build-request">What do you want to build?</label>
+                <input type="text" placeholder="Tell us briefly about what you want built" id="build-request">  
+            <input type="submit" class="submit-button">
         </div>
     </main>
 </body>

@@ -1,8 +1,13 @@
+body {
+    background-image: url(../images/blurry_construction.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
 .logo-image {
     position: relative; left: 20px; top: -50px;
 }
-
-
 ul {
     list-style-type: none;
     display: flex;
@@ -23,6 +28,74 @@ a:hover {
     transition: 0.2s;
     color: #5875b2;
 }
-body {
-    background-image: url(../images/blurry_construction.jpg);
+section {
+    position: relative; left: 80px; top: -50px;
 }
+h1 {
+    font-family: 'Merriweather', serif;
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+}
+h3 {
+    font-family: 'Merriweather', serif;
+}
+.contact-form {
+    width: 400px;
+    height: fit-content;
+    background-color: #5875b2;
+    position: relative; left: 750px; top: -250px;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+}
+.contact-form > div {
+    display: flex;
+    justify-content: center;
+}
+.contact-form > div > h2 {
+    color: lightgray;
+    font-family: 'Merriweather', serif;
+}
+.contact-form > input, select {
+    margin: 10px;
+    padding: 10px 20px;
+}
+.contact-form > label {
+    margin-left: 10px;
+    color: white;
+    background-color: #5875b2;
+    width: fit-content;
+    border-radius: 2px;
+}
+.contact-form > .submit-button {
+    background-color: #274483;
+    color: lightgrey;
+    width: 100px;
+    border-radius: 5px;
+    height: 30px;
+    margin: 10px;
+    position: relative; left: 250px;
+    border: 0px solid transparent;
+    display: flex;
+    justify-content: center;
+    font-family: 'Merriweather', serif;
+    padding: 2px;
+}
+.contact-form > input:hover, select:hover {
+    background-color: lightgrey;
+}
+.contact-form > .submit-button:hover {
+    background-color: #3f65b8;
+    cursor: pointer;
+}
+.contact-form > label:hover {
+    background-color: #2d54a8;
+    cursor: pointer;
+}
+.contact-form > .submit-button:active {
+    outline: none;
+    border: none;
+}
+
